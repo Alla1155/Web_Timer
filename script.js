@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //установим конечное время (по времени и дате)
     //пример ввода конечной даты 09.05.22 14.00 -> (2022, 05, 9, 14)
-    const deadline = (function(y, m, d, h) { return new Date(y, m-1, d, h); })(2022, 05, 9, 0);
+    const deadline = (function(y, m, d, h) { return new Date(y, m-1, d, h); })(2022, 05, 8, 18);
     //const deadline1 = new Date(2022,4,9); //без времени, но с месяцем-1 и без «0»
 
     //осуществляем обратный отсчет, создав новый объект, используя  new CountdownTimer()
